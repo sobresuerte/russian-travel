@@ -1,0 +1,5 @@
+.place__image {
+    box-sizing: border-box;
+    grid-area: image;
+    width: 100%;
+  }
