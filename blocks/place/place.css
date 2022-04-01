@@ -27,19 +27,22 @@
   .place {
     max-width: 720px;
     column-gap: 28px;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: 340px 1fr;
+    margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 595px) {
   .place {
     max-width: 320px;
+    grid-template-columns: 320px;
     grid-template-areas:
       "title"
       "website"
       "image"
       "main-text";
     gap: 32px;
+    margin-bottom: 50px;
   }
   
 }
